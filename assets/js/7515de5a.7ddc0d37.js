@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopbnb_docs=self.webpackChunkopbnb_docs||[]).push([[2857],{7059:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/opbnb-docs/blog/tags/docusaurus","allTagsPath":"/opbnb-docs/blog/tags","count":4}')}}]);
