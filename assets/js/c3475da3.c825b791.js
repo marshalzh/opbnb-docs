@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgreenfield_docs=self.webpackChunkgreenfield_docs||[]).push([[9884],{45250:e=>{e.exports=JSON.parse('{"permalink":"/opbnb-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

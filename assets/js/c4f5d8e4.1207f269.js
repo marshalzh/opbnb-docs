@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreenfield_docs=self.webpackChunkgreenfield_docs||[]).push([[195],{62841:(e,n,c)=>{c.r(n),c.d(n,{default:()=>t});var r=c(67294),s=c(16550);function t(){return r.createElement(s.l_,{to:"/opbnb-docs/docs/intro"})}}}]);
