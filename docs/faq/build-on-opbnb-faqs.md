@@ -1,5 +1,5 @@
 ---
-title: Build on opBNB
+title: Build on opBNB FAQs
 ---
 
 ### How to check if a smart contract is verified on opBNB using an API GET request?
@@ -35,9 +35,10 @@ Yes, it is up to the project.
 
 The choice of L2 or L1 depends on the specific needs of the project. L2 offers better performance and lower cost, so it is advisable to use L2 as the starting point if these factors are important for the project.
 
+
 ### Is there a possibility of a shared sequencer/liquidity with other chains built on OPStack in the future?
 
-Unfortunatelly, no, in short term, this is BNB Chain team`s goal yet.
+Unfortunately, no, in short term, this is BNB Chain team`s goal yet.
 
 ### What programming language is used for the opBNB chain and contracts?
 
@@ -53,9 +54,9 @@ opBNB is a permissionless chain that allows any VRF and oracle services to be in
 first two services that have been launched on opBNB are Binance Oracle and Polythera, which
 provide reliable and secure data feeds for smart contracts.
 
-### What to do if there is trouble verifying smart contract with all available methods using the <https://opbnbscan.com/verifyContract>
+### What to do if there is trouble verifying smart contract with all available methods using the https://opbnbscan.com/verifyContract
 
-Try using the alternative explorer <https://opbnb-testnet.bscscan.com/> for verifying your smart contracts.
+Try using the alternative [explorer](https://opbnb-testnet.bscscan.com/) for verifying your smart contracts.
 
 ### How do we set hardhat verification parameters for opBNB?
 
@@ -65,7 +66,7 @@ Refer to the official Hardhat documentation [here](https://hardhat.org/hardhat-r
 
 The process of creating and storing NFTs on the opBNB is similar to other blockchains. You need to have a smart contract that defines the properties and functions of your NFT, and then deploy it on the opBNB. To store the metadata of your NFT, such as the name, description, image, and other attributes, you can use various storage solutions. Some examples are BNB Greenfield, IPFS, and Filecoin.
 
-### When using hardhat to verify upgradeable/proxy contract on opBNB-testnet, I've encountered "Error: Failed to get logs for contract at address 0x<address>". How can I resolve the issue and verify the upgradeable/proxy contract?
+### When using hardhat to verify upgradeable/proxy contract on opBNB-testnet, I've encountered "Error: Failed to get logs for contract at address 0xxx". How can I resolve the issue and verify the upgradeable/proxy contract?
 
 Currently, hardhat API is using chain's public RPC to get contract event log. Therefore, the public RPC limits the query range within the latest 50k blocks only. That's why the error message said "Failed to get logs". 
 
